@@ -1,0 +1,68 @@
+body{
+    background-image:url(images/background.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin: 0;
+}
+
+.scal{
+    background-color: rgba(0, 0, 0,0.7);
+    position: absolute;
+    /* margin: 30px 30px 30px 100px; */
+    padding: 20px 20px 0px 20px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+form{
+    align-items: center;
+    margin: 10px 10px 0px 10px;
+    padding: 10px;
+}
+
+input{
+    margin: 20px;
+    color: black;
+    padding: 15px 25px 15px 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid  rgb(0,0,0); 
+    font-size: 30px;
+    font-weight: 700;
+}
+
+input:hover{
+    margin: 20px;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+input#display{
+    width: 95%;
+    color: white;
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+
